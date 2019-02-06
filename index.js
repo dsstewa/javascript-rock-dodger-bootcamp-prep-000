@@ -135,9 +135,9 @@ function createRock(x) {
  */
 
   function removeRock() {
-  var x = document.getElementsByClassName("rock");
-  for (var i = 0; i < x.length; i++) {
-    x.remove(i)
+  var rock = document.getElementsByClassName("rock");
+  for (var i = 0; i < rock.length; i++) {
+    rock.remove(i)
   }
   }
 
