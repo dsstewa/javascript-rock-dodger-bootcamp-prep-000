@@ -142,14 +142,9 @@ function createRock(x) {
   }
 
 function endGame() {
-  
-
-
  clearInterval(gameInterval)
   removeRock()
- 
   alert("YOU LOSE!")
- 
 }
 
 function moveDodger(e) {  // this works to call the named functions DSS
