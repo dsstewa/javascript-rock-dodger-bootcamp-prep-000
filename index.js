@@ -133,14 +133,17 @@ function createRock(x) {
  * and removing the `moveDodger` event listener.
  * Finally, alert "YOU LOSE!" to the player.
  */
-function endGame() {
-  
+
   function removeRock() {
   var x = document.getElementsByClassName("rock");
   for (var i = 0; i < x.length; i++) {
     x.remove(i)
   }
   }
+
+function endGame() {
+  
+
 
 
   removeRock()
