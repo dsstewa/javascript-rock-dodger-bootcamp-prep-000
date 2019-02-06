@@ -147,7 +147,7 @@ function endGame() {
 
 
   removeRock()
-  clearInterval(gameInterval)
+ 
   alert("YOU LOSE!")
  
 }
