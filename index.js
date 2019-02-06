@@ -135,16 +135,15 @@ function createRock(x) {
  */
 function endGame() {
   
-  removeRock()
   function removeRock() {
   var x = document.getElementsByClassName("rock");
   for (var i = 0; i < x.length; i++) {
     x.remove(i)
   }
-  
+  }
 
 
-  
+  removeRock()
   clearInterval(gameInterval)
   alert("YOU LOSE!")
  
