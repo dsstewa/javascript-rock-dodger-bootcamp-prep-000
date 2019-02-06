@@ -137,7 +137,7 @@ function createRock(x) {
   function removeRock() {
   var rock = document.getElementsByClassName("rock");
   for (var i = 0; i < rock.length; i++) {
-    $(".rock").remove()
+    rock[0].remove()
   }
   }
 
